@@ -7,21 +7,22 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="翻訳支援サーバ「トランスル－」のドキュメントページです" name="description"/>
 <meta content="nao" name="author"/>
-<link href="install/" rel="next"/>
-<link href="images/favicon.png" rel="icon"/>
+<link href=".." rel="prev"/>
+<link href="../config/" rel="next"/>
+<link href="../images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.4" name="generator"/>
-<title>TOP - トランスルー｜翻訳支援サーバ</title>
-<link href="assets/stylesheets/main.240905d7.min.css" rel="stylesheet"/>
-<link href="assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<title>インストール - トランスルー｜翻訳支援サーバ</title>
+<link href="../assets/stylesheets/main.240905d7.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=BIZ+UDPGothic:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"BIZ UDPGothic";--md-code-font:"Roboto Mono"}</style>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet"/>
-<link href="css/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../css/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-ZKE9XRJLM3"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-ZKE9XRJLM3",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-ZKE9XRJLM3",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
-<link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -32,7 +33,7 @@
                 body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
                 body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
                 body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-                </style><script src="assets/javascripts/glightbox.min.js"></script></head>
+                </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="teal" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
@@ -47,8 +48,8 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="ヘッダー" class="md-header__inner md-grid">
-<a aria-label="トランスルー｜翻訳支援サーバ" class="md-header__button md-logo" data-md-component="logo" href="." title="トランスルー｜翻訳支援サーバ">
-<img alt="logo" src="images/logo.png"/>
+<a aria-label="トランスルー｜翻訳支援サーバ" class="md-header__button md-logo" data-md-component="logo" href=".." title="トランスルー｜翻訳支援サーバ">
+<img alt="logo" src="../images/logo.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -63,7 +64,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              TOP
+              インストール
             
           </span>
 </div>
@@ -120,12 +121,12 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href=".">
+<a class="md-tabs__link" href="..">
         トランスル―▼
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="install/">
+<a class="md-tabs__link md-tabs__link--active" href="./">
         ドキュメント▼
       </a>
 </li>
@@ -139,27 +140,26 @@
 <div class="md-sidebar__inner">
 <nav aria-label="ナビゲーション" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="トランスルー｜翻訳支援サーバ" class="md-nav__button md-logo" data-md-component="logo" href="." title="トランスルー｜翻訳支援サーバ">
-<img alt="logo" src="images/logo.png"/>
+<a aria-label="トランスルー｜翻訳支援サーバ" class="md-nav__button md-logo" data-md-component="logo" href=".." title="トランスルー｜翻訳支援サーバ">
+<img alt="logo" src="../images/logo.png"/>
 </a>
     トランスルー｜翻訳支援サーバ
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
           トランスル―▼
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
           トランスル―▼
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href=".">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
         TOP
       </a>
 </li>
@@ -171,40 +171,41 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
           ドキュメント▼
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
           ドキュメント▼
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="install/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         インストール
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="config/">
+<a class="md-nav__link" href="../config/">
         エンジンの設定
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="gas/">
+<a class="md-nav__link" href="../gas/">
         GASの設定
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="onecomme/">
+<a class="md-nav__link" href="../onecomme/">
         わんコメ向け設定
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="api/">
+<a class="md-nav__link" href="../api/">
         技術者向け
       </a>
 </li>
@@ -226,17 +227,63 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="_1">いろんなツールと翻訳でつながろう！<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/title.png"><img alt="Image title" src="images/title.png"/></a></p>
-<div class="admonition info">
-<p class="admonition-title">開発について</p>
+<h1 id="_1">インストール<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
 <ul>
-<li>トランスルーは個人開発のアプリです</li>
-<li>翻訳や発話を支援するAPIサーバです</li>
-<li>サポートはDiscordで実施しています。</li>
-<li>維持できなくなったら、サポートは終了となります</li>
+<li>サイトからダウンロードしたプログラムを開きます。</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../images/install_p02.png"><img alt="Image title" src="../images/install_p02.png"/></a></p>
+<ul>
+<li>インストールがおわるとスタートメニューに項目が増えます。使う方のメニューを起動してください。</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../images/install_p01.png"><img alt="Image title" src="../images/install_p01.png"/></a></p>
+<table>
+<thead>
+<tr>
+<th>種類</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x64</td>
+<td>Intel版Windows</td>
+</tr>
+<tr>
+<td>ARM64</td>
+<td>ARM版Windows</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">起動しない場合について</p>
+<ul>
+<li>.Net7ランタイムが必要です。ランタイムを導入してください。</li>
 </ul>
 </div>
+<table>
+<thead>
+<tr>
+<th>種類</th>
+<th>ランタイム</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x64</td>
+<td><a href="https://dotnet.microsoft.com/ja-jp/download/dotnet/thank-you/runtime-aspnetcore-7.0.4-windows-x64-binaries">ダウンロード</a></td>
+</tr>
+<tr>
+<td>ARM64</td>
+<td><a href="https://dotnet.microsoft.com/ja-jp/download/dotnet/thank-you/runtime-aspnetcore-7.0.4-windows-arm64-binaries">ダウンロード</a></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>起動すると黒い画面がでます。</li>
+<li>この画面を閉じるとプログラムは終了します。</li>
+<li>使用している間は最小化し、起動したままにしてください。
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../images/install_p03.png"><img alt="Image title" src="../images/install_p03.png"/></a></li>
+</ul>
 <hr/>
 <div class="md-source-file">
 <small>
@@ -256,13 +303,26 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="フッター" class="md-footer__inner md-grid">
-<a aria-label="次: インストール" class="md-footer__link md-footer__link--next" href="install/" rel="next">
+<a aria-label="前: TOP" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  前
+                </span>
+                TOP
+              </div>
+</div>
+</a>
+<a aria-label="次: エンジンの設定" class="md-footer__link md-footer__link--next" href="../config/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   次
                 </span>
-                インストール
+                エンジンの設定
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -295,7 +355,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": ".", "features": ["content.tabs.link", "navigation.instant", "navigation.tabs", "navigation.top", "navigation.section", "navigation.footer"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}}</script>
-<script src="assets/javascripts/bundle.19047be9.min.js"></script>
+<script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "navigation.instant", "navigation.tabs", "navigation.top", "navigation.section", "navigation.footer"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}}</script>
+<script src="../assets/javascripts/bundle.19047be9.min.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
